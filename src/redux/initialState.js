@@ -7,8 +7,8 @@ const initialState = {
       },
     {
         id: "2",
-        title: 'Test list',
-        description: 'Lorem Ipsum'
+        title: 'New List',
+        description: 'Whats on your mind?'
     }
   ],
  

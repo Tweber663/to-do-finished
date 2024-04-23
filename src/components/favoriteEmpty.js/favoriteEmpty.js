@@ -4,7 +4,7 @@ const FavoriteEmpty = () => {
 
     return (
         <section className={styles.main}>
-            <h1 className={styles.title}> NOTHING HERE </h1> 
+            <h1 className={styles.title}> NO FAVOURITES </h1> 
             <img  src={`${process.env.PUBLIC_URL}/img/meme.png`} alt="No memes here" />
         </section>
     )

@@ -15,11 +15,7 @@ const Navbar = () => {
                 <ul>
                     <li><NavLink className={({isActive}) => isActive? styles.linkActive : undefined} to="/">Home</NavLink></li>
                     <li><NavLink to="favorite" className={({isActive}) => isActive? styles.linkActive: undefined}>Favorite</NavLink></li>
-
-                    <li><NavLink to="/about" className={({isActive}) => isActive? styles.linkActive: undefined}>About</NavLink></li>
-
-
-                    
+                    {/* <li><NavLink to="/about" className={({isActive}) => isActive? styles.linkActive: undefined}>About</NavLink></li> */}
                 </ul>
             </div>
         </nav>

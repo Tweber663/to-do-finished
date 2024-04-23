@@ -7,7 +7,7 @@ const Hero = () => {
     return (
       <div className={styles.hero}>
         <PageTitle>
-          My first React App
+          To-do-React-App
         </PageTitle>
         <p className={styles.subtitle}>A simple to-do app, with lists, columns and card</p>
       </div>
